@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Публичное API LazerLast</title>
+        <meta charset="UTF-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="jquery-3.5.1.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+        
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="frame">
+                <h1 class="success">Публичное API LazerLast</h1>
+                <p>Это публичное API к данным сервера на проекте LazerLast.</p>
+                <p>Данное API позволит вам получить информацию об игроках с помощью различных команд.</p>
+                <h4>описание команд и примеры применения можно найти тут:</h4>
+                <p><a href="#" id="Comand_and_description">Команды к API и примеры к ним</a></p>
+                <div class="Descripts">
+                    <table>
+                        <tr>
+                            <td>Описание</td>
+                            <td>Команда</td>
+                            <td>Аргументы</td>
+                            <td>Пример применения</td>
+                        </tr>
+                        <tr>
+                            <td><p>Получение данных на Prison</p></td>
+                            <td><p>prison.php</p></td>
+                            <td><p>?player=Игрок</p>
+                            <p>&format=формат(text/JSON)</p></td>
+                            <td><p>prison.php?player=_GameDoctor_&format=json</p>
+                            <a href="http://api.lazerlast.ru/api/prison.php?player=_GameDoctor_&format=json">Результат</a></td>
+                        </tr>
+                        <tr>
+                            <td><p>Получение данных на Lobby</p></td>
+                            <td><p>lobby.php</p></td>
+                            <td><p>?player=Игрок</p>
+                            <p>&format=формат(text/JSON)</p></td>
+                            <td><p>lobby.php?player=_GameDoctor_&format=json</p>
+                            <a href="http://api.lazerlast.ru/api/lobby.php?player=_GameDoctor_&format=json">Результат</a></td>
+                        </tr>
+                        <tr>
+                            <td><p>Получение данных на MyLittleFarm</p></td>
+                            <td><p>mlf.php</p></td>
+                            <td><p>?player=Игрок</p>
+                            <p>&format=формат(text/JSON)</p></td>
+                            <td><p>mlf.php?player=_GameDoctor_&format=json</p>
+                            <a href="http://api.lazerlast.ru/api/mlf.php?player=_GameDoctor_&format=json">Результат</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
